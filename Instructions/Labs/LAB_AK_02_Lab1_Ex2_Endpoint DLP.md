@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: e9ee1e70f3ec7b99219b10c5684347420da0f8dd
-ms.sourcegitcommit: 2e9e5dd78a50682b1afef130c7c566b7d929f854
+ms.openlocfilehash: f3d68c98851f6405e52885e8eb3b059ac0d71504
+ms.sourcegitcommit: b50f9a265cf3a73ace7cbec4b5cb6f7420acc139
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137899381"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "141151313"
 ---
 # <a name="lab-2---exercise-2---manage-endpoint-dlp"></a>ラボ 2 - 演習 2 - エンドポイント DLP を管理する
 
@@ -141,7 +141,7 @@ DLP ポリシーがアクティブ化されました。 ポリシーがクレジ
 
 4. **「データ損失の防止」** ウィンドウで、 **「Endpoint DLP 設定」** タブを選択します。
 
-5. **「Endpoint DLP 設定」** タブで、 **「ファイル パスの除外」** エリアを拡張し、 **「+ ファイル パスの除外の追加」** を選択します。
+5. **[エンドポイント DLP 設定]** タブで、 **[Windows のファイル パスの除外]** 領域を拡張し、 **[+ ファイル パスの除外の追加]** を選択します。
 
 6. **[除外するパスを入力します]** フィールドで、「*C:\FilePathExclusionTest*」と入力し、 **[+]** を選択します。
 

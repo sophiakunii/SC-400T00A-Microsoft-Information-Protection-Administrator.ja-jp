@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: e6f9b38a496a6f35e5fb0fc5cd46be83cdc667c2
-ms.sourcegitcommit: 2e9e5dd78a50682b1afef130c7c566b7d929f854
+ms.openlocfilehash: 868b12d70dbc7c26d12f3543c0cbed7ddaec1000
+ms.sourcegitcommit: b50f9a265cf3a73ace7cbec4b5cb6f7420acc139
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137899361"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "141151322"
 ---
 # <a name="lab-3---exercise-4---use-ediscovery-for-recovery"></a>ラボ 3 - 演習 4 - 回復を目的とした電子情報開示の使用
 
@@ -24,7 +24,7 @@ ms.locfileid: "137899361"
 
 5. **ケース名** フィールドに「*Mark 8 Project Case*」と入力し、 **「ケースの説明」** に「*このケースは、Mark 8 Project に関する Megan Bowen のメールを評価するために使用されます。* 」と入力して、 **「保存」** を選択します。
 
-6. **[コア電子情報開示]** ページで、 **[Mark 8 Project Case]** をダブルクリックして、そのケースを開きます。
+6. **[コア電子情報開示]** ページで、 **[Mark 8 Project Case]** をクリックして、そのケースを開きます。
 
 7. 「ケース」ビューで、 **「検索」** タブを選択します。
 
@@ -34,7 +34,7 @@ ms.locfileid: "137899361"
 
 10. **[場所]** ページで **[Exchange メールボックス]** を **[有効]** にし、 **[ユーザー、グループ、チームを選択]** を選択します。
 
-11. **「メールボックスの交換」** ダイアログで、 *「Megan Bowen」* を検索し、Megan のメールボックスを選択します。  **[完了]** を選択します。
+11. **「メールボックスの交換」** ダイアログで、 *「Megan Bowen」* を検索し、Megan のメールボックスを選択します。  **[Done]** を選択します。
 
 12. **「場所」** ページで、 **「オンプレミス ユーザーのアプリ コンテンツを追加する」** チェックボックスをオフにして、 **「次へ」** を選択します。
 

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 85b3d6e0b1dc1d1123324ab3eafe4452c34e3b7f
-ms.sourcegitcommit: 2e9e5dd78a50682b1afef130c7c566b7d929f854
+ms.openlocfilehash: b0c4926c2bd381a708336a6e90ef9bb13b97629c
+ms.sourcegitcommit: b50f9a265cf3a73ace7cbec4b5cb6f7420acc139
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137899373"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "141151319"
 ---
 # <a name="lab-1---exercise-1---manage-compliance-roles"></a>ラボ 1 - 演習 1 - コンプライアンス ロールを管理する
 
@@ -62,7 +62,7 @@ Contoso Ltd. のコンプライアンス管理者として新規採用された 
 
 5. 「**コンプライアンス体制を強化する**」メッセージが表示されたら、書かれているものを読み、「**次へ**」を 2 回選択し、「**完了**」を選択します。
 
-6. 下にスクロールして、左下側の「**設定**」を選択し、Joni が設定を利用可能であることを確認します。
+6. 左側のナビゲーション メニューで **[すべて表示]** を選択し、 **[設定]** を選択して、Joni が使用できる設定を確認します。
 
 7. 様々な設定をよく理解しましょう。 終了したら、ブラウザーの画面を開いたままにしておきます。
 
