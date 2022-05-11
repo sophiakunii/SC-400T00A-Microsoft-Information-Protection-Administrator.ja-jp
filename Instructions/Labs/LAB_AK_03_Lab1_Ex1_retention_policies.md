@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 5bd176ed11b3c56734393fc6a65885b999a53d8f
-ms.sourcegitcommit: 2e9e5dd78a50682b1afef130c7c566b7d929f854
+ms.openlocfilehash: a826e5a9cac44bd65f765cfe1322731747535611
+ms.sourcegitcommit: b50f9a265cf3a73ace7cbec4b5cb6f7420acc139
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137899362"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "141151316"
 ---
 # <a name="lab-3---exercise-1---configure-retention-policies"></a>ラボ 3 - 演習 1 - 保持ポリシーを構成する
 
@@ -23,7 +23,7 @@ ms.locfileid: "137899362"
 
 3. **Microsoft 365 コンプライアンス** ポータルの左側のナビゲーション ペインで **[ポリシー]** を選択し、 **[データ]** で **[保持]** を選択します。
 
-4. **「情報ガバナンス」** ページの **「保持」** タブで、 **「+ アイテム保持ポリシーの新規作成」** を選択します。
+4. **[情報ガバナンス]** ページの **[保持ポリシー]** タブで、 **[+ 新しい保持ポリシー]** を選択します。
 
 5. **「保持ポリシーの名前を設定」** ページの **「名前」** と **「説明」** に、次の情報を入力します。
 
