@@ -2,13 +2,8 @@
 lab:
   title: '演習 2: Microsoft Purview メッセージ暗号化を管理する'
   module: Module 1 - Implement Information Protection
-ms.openlocfilehash: ef12c02196f9da1f7093790a0341143703e413b4
-ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694955"
 ---
+
 # <a name="lab-1---exercise-2---manage-office-365-message-encryption"></a>ラボ 1 - 演習 2 - Office 365 Message Encryption を管理する
 
 Joni Sherman がパイロット チームで構成しテストする必要がある最初の設定は、Microsoft 365 の組み込みの Office 365 Message Encryption (OME) です。 この目的のために、彼女は既定のテンプレートを変更し、パイロット ユーザーの 1 人に割り当てられる新しいブランド テンプレートを作成します。 次に、パイロット ユーザーは各自のアカウントで OME 機能をテストします。
@@ -84,7 +79,7 @@ Exchange Online PowerShell モジュールがインストールされ、テナ�
 1. 次のコマンドレットを実行して、既定の OME 構成を閲覧します。
 
     ```powershell
-    Get-OMEConfiguration -Identity "OME Configuration" |fl
+    Get-OMEConfiguration -Identity "OME Configuration" | fl
     ```
 
 1. 設定を確認して、SocialIdSignIn のパラメーターが [True] に設定されていることを確認します。
@@ -100,7 +95,7 @@ Exchange Online PowerShell モジュールがインストールされ、テナ�
 1. 既定の構成をもう一度確認し、SocialIdSignIn のパラーメーターが [False] に設定されていることを確認します。
 
     ```powershell
-    Get-OMEConfiguration -Identity "OME Configuration" |fl
+    Get-OMEConfiguration -Identity "OME Configuration" | fl
     ```
 
 1. 結果には、SocialIDSignIn が False に設定されていることが示されていることに注意してください。 PowerShell ウィンドウとクライアントは開いたままにします。
@@ -111,7 +106,7 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 テナントのユーザーから Office 365 Message Encryption で保護されたメッセージを受信するときに、ソーシャル ID ダイアログが外部の受信者に対して表示されていないことを確認する必要があります。暗号化されたコンテンツにアクセスするときはいつでも OTP を使用する必要があります。
 
-1.  Client 1 VM (LON-CL1) をそのまま開いておき、Client 2 VM (LON-CL2) に **lon-cl2\admin** アカウントでログインします。
+1. Client 1 VM (LON-CL1) をそのまま開いておき、Client 2 VM (LON-CL2) に **lon-cl2\admin** アカウントでログインします。
 
 1. 使用可能なすべての Windows 更新がインストールされていることを確認します。更新プログラムのインストールを完了するためにクライアントの再起動は必要ありません。
 
@@ -129,17 +124,19 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 1. **[翻訳元の言語]** ウィンドウが表示されたら、下向きの矢印を選択し、**[...からは翻訳しない]** を選択します。
 
-1. Outlook on the web の左上部から **[新規メッセージ]** を選択します。
+1. Outlook on the web の左上部から **[新しいメール]** を選択します。
 
 1. **[To]** に、テナント ドメインには存在しない、個人用またはその他サード パーティのメール アドレスを入力します。 「**秘密のメッセージ**」と件名に、「**私の重大な秘密のメッセージ。**」 と本文に入力します。
 
-1. 上部のウィンドウから、**[暗号化]** を選択し、メッセージを暗号化します。 メッセージが正常に暗号化されると、"このメッセージは暗号化されています。 受信者は暗号化を削除できません" のような通知が表示されるはずです。
+1. 上部のペインから **[オプション]** を選択した後、 **[暗号化]** を選択してメッセージを暗号化します。 メッセージが正常に暗号化されると、"このメッセージは暗号化されています。 受信者は暗号化を削除できません" のような通知が表示されるはずです。
+
+      ![暗号化設定のスクリーンショット](../Media/OptionsEncrypt.png)
 
 1. **[送信]** を選択してメッセージを送信します。
 
-1. 個人用のメール アカウントにサインインし、Lynne Robbins からのメッセージを開きます。 Microsoft アカウント（@outlook.com など）にこのメールを送った場合、暗号化は自動的に行われる可能性があり、メッセージが自動的に表示されます。 メールを他のメール サービス (@google.com など) に送信した場合、暗号化を処理し、メッセージを読むために、次の手順を踏む必要がある可能性があります。
+1. 個人用のメール アカウントにサインインし、Lynne Robbins からのメッセージを開きます。 Microsoft アカウント（@outlook.com など）にこのメールを送った場合、暗号化は自動的に行われる可能性があり、メッセージが自動的に表示されます。 メールを他のメール サービス (@gmail.com など) に送信した場合、暗号化を処理し、メッセージを読むために、次の手順を踏む必要がある可能性があります。
 
-    **注:** 迷惑メール フォルダーに Lynne Robbins からのメッセージがあるかどうかを確認する必要があるかもしれません。
+    >**注:** 迷惑メール フォルダーに Lynne Robbins からのメッセージがあるかどうかを確認する必要があるかもしれません。
 
 1. **[メッセージを読む]** を選択します。
 
@@ -221,7 +218,7 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 1. Outlook on the web の左上部から **[新規メッセージ]** を選択します。
 
-1. **[To]** に、テナント ドメインには存在しない、個人用またはその他サード パーティのメール アドレスを入力します。 「*財務レポート*"」と件名に、「"*秘密の財務情報。*"」 と本文に入力します。
+1. **[To]** に、テナント ドメインには存在しない、個人用またはその他サード パーティのメール アドレスを入力します。 「**財務レポート**"」と件名に、「"**秘密の財務情報。**"」 と本文に入力します。
 
 1. **[送信]** を選択してメッセージを送信します。
 
@@ -240,5 +237,3 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 1. カスタム ブランドの暗号化されたメッセージを確認します。
 
 新しくカスタマイズされた OME テンプレートがテストされました。
-
-# <a name="proceed-to-lab-1---exercise-3"></a>ラボ 1 - 演習 3 に進む

@@ -2,13 +2,8 @@
 lab:
   title: 演習 1 - DLP ポリシーを管理する
   module: Module 2 - Implement Data Loss Prevention
-ms.openlocfilehash: 7628bce3497a693da7ad73585dd446f0319277a5
-ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694976"
 ---
+
 # <a name="lab-2---exercise-1---manage-dlp-policies"></a>ラボ 2 演習 1 - DLP ポリシーを管理する
 
 あなたは Contoso Ltd. が新しく採用したコンプライアンス管理者、Joni Sherman です。データ損失防止の目的で、組織の Microsoft 365 テナントを構成する任務を負っています。 Contoso Ltd. は米国で運転指導を提供している会社であり、顧客の機密情報が組織から流出しないようにする必要があります。
@@ -51,7 +46,7 @@ ms.locfileid: "147694976"
 
 1. **[ルールの作成]** ページで、**[+ アクションの追加]** を選択し、**[アクセスの制限または Microsoft 365 のコンテンツの暗号化]** を選択します。
 
-1. **[Microsoft 365 の場所にあるコンテンツへのアクセスを制限またはコンテンツを暗号化する]** の前のボックスをオンし、**すべてのユーザーをブロック** するよう選択します。
+1. **[Microsoft 365 の場所にあるコンテンツへのアクセスを制限またはコンテンツを暗号化する]** の前のボックスをオンし、**すべてのユーザーをブロック**するよう選択します。
 
 1. **[ルールの作成]** ページの **[ユーザー通知]** セクションで、スイッチを **[オン]** の位置に切り替えます。
 
@@ -83,7 +78,7 @@ ms.locfileid: "147694976"
 
 1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
-1. **Purview ポータル** の左側のナビゲーション ペインで **[ポリシー]** を選択し、 **[データ]** で **[データ損失防止]** を選択します。
+1. **Purview ポータル**の左側のナビゲーション ペインで **[ポリシー]** を選択し、 **[データ]** で **[データ損失防止]** を選択します。
 
 1. **[データ損失防止]** ウィンドウで **[ポリシー]** タブを選択し、**[クレジット カードの DLP ポリシー]** という名前のポリシーを選択し、**[ポリシーの編集]** (鉛筆アイコン) を選択して、ポリシー ウィザードを開きます。
 
@@ -177,7 +172,7 @@ Microsoft Defender for Cloud Apps のファイル ポリシーを使用し、One
 
 1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 右上にある Joni Sherman の **[プロフィール画像]** を選択し、 **[サインアウト]** を選択したら、ブラウザーを閉じます。
 
-1. **Microsoft Edge** を開き、 **https://portal.cloudappsecurity.com** に移動し、Microsoft Defendger for Cloud Apps ポータルに **MOD 管理者** としてログインします。 admin@WWLxZZZZZZ.onmicrosoft.com (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** を開き、 **https://portal.cloudappsecurity.com** に移動し、Microsoft Defendger for Cloud Apps ポータルに **MOD 管理者**としてログインします。 admin@WWLxZZZZZZ.onmicrosoft.com (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. 右上隅のプロフィール情報の横で、**[設定]** の歯車を選択し、ドロップダウン メニューから **[設定]** を選択します。
 
@@ -231,7 +226,7 @@ Microsoft Defender for Cloud Apps でファイル監視が有効になりまし�
 
 1. **Microsoft Edge** で、 **https://admin.powerplatform.microsoft.com** に移動し、Power Platform 管理センターに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
-1. **Power Platform 管理センター** の左側のナビゲーション ペインで、 **[ポリシー]** のドロップダウンを選択し、 **[データ ポリシー]** を選択します。
+1. **Power Platform 管理センター**の左側のナビゲーション ペインで、 **[ポリシー]** のドロップダウンを選択し、 **[データ ポリシー]** を選択します。
 
 1. **[データ ポリシー]** ページで **[+ 新しいポリシー]** を選択します。
 
@@ -241,12 +236,10 @@ Microsoft Defender for Cloud Apps でファイル監視が有効になりまし�
 
 1. **[コネクタの割り当て]** ページで、**[ビジネス]** タブを選択して、SharePoint と Salesforce の両方が表示されるようにします。
 
-1. **次へ** を 2 回選択します。
+1. **次へ**を 2 回選択します。
 
 1. **[スコープの定義]** ページで、**[すべての環境の追加]** を選択し、**[次へ]** を選択します。
 
 1. **[ポリシーの確認と作成]** ページで、ポリシーの設定を確認し、**[ポリシーの作成]** を選択します。
 
 SharePoint Online コネクタと SalesForce でないすべてのコネクタを利用するフローをユーザーが作成することを防止する Power Platform の DLP ポリシーが作成されました。
-
-# <a name="proceed-to-lab-2---exercise-2"></a>ラボ 2 - 演習 2 に進む

@@ -2,13 +2,8 @@
 lab:
   title: 演習 3 - DLP レポートを管理する
   module: Module 2 - Implement Data Loss Prevention
-ms.openlocfilehash: 746ee7009944164eea61823432a6b81f0d03cbc3
-ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694946"
 ---
+
 # <a name="lab-2---exercise-3---manage-dlp-reports"></a>ラボ 2 演習 3 - DLP レポートを管理する
 
 あなたは Contoso Ltd. のコンプライアンス管理者、Joni Sherman です。データ損失防止の目的で、組織の Microsoft 365 テナントを構成する任務を負っています。 Contoso Ltd. は米国で自動車運転教習を行っている企業です。あなたには機密の顧客情報がこの組織から漏えいしないようにする役目があります。 新しいコンプライアンス責任者が DLP レポートの確認を支援することが通知されます。
@@ -60,5 +55,3 @@ ms.locfileid: "147694946"
 1. クライアントを開いたままにして、この最後の演習を完了します。
 
 これで、アクセスが構成されて、新しいコンプライアンス責任者が Purview ポータルのレポートを閲覧できることが確認されました。
-
-## <a name="you-have-completed-the-lab-2-proceed-to-lab-3---exercise-1"></a>これでラボ 2 は完了です。 ラボ 3 - 演習 1 に進む。

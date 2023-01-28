@@ -2,13 +2,8 @@
 lab:
   title: 演習 3 - サービスベースの保持を構成する
   module: Module 3 - Implement Data Lifecycle and Records Management
-ms.openlocfilehash: b531417b4335973f9c1e3ac0950f000fa1719eab
-ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694943"
 ---
+
 # <a name="lab-3---exercise-3---configure-service-based-retention"></a>ラボ 3 - 演習 3 - サービスベースの保持を構成する
 
 Contoso Ltd. のシステム管理者である Joni Sherman のロールを実行します。法務部からは、不満を持った従業員が企業データを削除しないよう、サポートしてほしいと求められています。
@@ -25,9 +20,9 @@ Contoso Ltd. のシステム管理者である Joni Sherman のロールを実�
 
 1. [Welcome] 画面が表示される場合は閉じます。
 
-1. **Exchange 管理センター** では、左側のナビゲーション ウィンドウで、**[受信者]**、さらに **[メールボックス]** を選択します。
+1. **Exchange 管理センター**では、左側のナビゲーション ウィンドウで、**[受信者]**、さらに **[メールボックス]** を選択します。
 
-1. **Alex Wilber** のメールボックスを選択したら、鉛筆のアイコンを選択して、メールボックスを編集します。
+1. **Alex Wilber**のメールボックスを選択したら、鉛筆のアイコンを選択して、メールボックスを編集します。
 
 1. **[ユーザー メールボックスの編集]** ウィンドウで、**[メールボックスの機能]** を選択します。
 
@@ -54,7 +49,7 @@ Contoso Ltd. のシステム管理者である Joni Sherman のロールを実�
 
 1. Microsoft Office 365 のランディング ページで、左上の角にあるアプリ ランチャー アイコン（9つのドット）を選択し、サブメニューから **SharePoint** を選択します。
 
-1. **[SharePoint へようこそ] スタート ページ** が表示されたら、閉じます。
+1. **[SharePoint へようこそ] スタート ページ**が表示されたら、閉じます。
 
 1. SharePoint が開いたら、SharePoint サイト **Benefits @ Contoso** を選択します。
 
@@ -73,5 +68,3 @@ Contoso Ltd. のシステム管理者である Joni Sherman のロールを実�
 1. 左側のナビゲーション ウィンドウで **[ドキュメント]** を選択し、このファイルが復元されたか確認します。
 
 SharePoint サイトの削除したドキュメントを復元することができました。
-
-# <a name="proceed-to-lab-3---exercise-4"></a>ラボ 3 - 演習 4 に進む

@@ -2,13 +2,8 @@
 lab:
   title: 演習 1 - 保持ポリシーを構成する
   module: Module 3 - Implement Data Lifecycle and Records Management
-ms.openlocfilehash: dc8282f424065a6c21ceac476f79a15dbf5ed149
-ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694934"
 ---
+
 # <a name="lab-3---exercise-1---configure-retention-policies"></a>ラボ 3 - 演習 1 - 保持ポリシーを構成する
 
 この演習では、Contoso Ltd. のシステム管理者である Joni Sherman のロールを実行します。 この企業はテキサスを本拠地としており、記録は 3 年を経過したら削除しても違法ではない、という州法を遵守するために保持ポリシーを実装する必要があります。 
@@ -78,8 +73,8 @@ Exchange メール、Microsoft 365 グループ、OneDrive、SharePoint サイ�
 1. **[ポリシーを適用する場所の選択]** ページで、次の設定を入力します。
 
     - **[Teams のチャネル メッセージ]** 場所 – **[状態]**: オン 
-    - **Teams のチャット** の場所 – **ステータス**:オン
-    - その他の場所はすべて自動的に **オフ** になります。
+    - **Teams のチャット**の場所 – **ステータス**:オン
+    - その他の場所はすべて自動的に**オフ**になります。
     
 
 1. [場所]: **[Teams のチャット]** で、 **[すべてのユーザー]** の下のテキスト リンクで **[編集]** を選択します。
@@ -127,7 +122,7 @@ PowerShell を使用して同じ保持ポリシーを作成します
 1. 次のコマンドレットを実行して、Teams を除くすべての場所に対する最初の保持ポリシーを作成します。
 
     ```powershell
-    New-RetentionCompliancePolicy -Name "Company Wide PS" -ExchangeLocation All -ModernGroupLocation All -PublicFolderLocation All -SharePointLocation All -OneDriveLocation All
+    New-RetentionCompliancePolicy -Name "Company Wide PS" -ExchangeLocation All -ModernGroupLocation All -SharePointLocation All -OneDriveLocation All
     ```
 
 1. 次のコマンドレットを実行して、保持期間を設定します。単位は、変更日を基準にした日数を使用します。
@@ -202,7 +197,7 @@ PowerShell を使って保持期間を 3 年に設定した保持ポリシーを
 
     - **Exchange メール** – **状態**:オン
     - **OneDrive** – **状態**:オン
-    - その他の場所はすべて自動的に **オフ** になります。
+    - その他の場所はすべて自動的に**オフ**になります。
     
 1. **[次へ]** ボタンを選択します。
 1. **[コンテンツを保持するか、削除するか、またはその両方を行うかを決定する]** ページで、**[特定の期間のアイテムを保持する]** セクションで、次の情報を入力します。
@@ -252,5 +247,3 @@ PowerShell を使って保持期間を 3 年に設定した保持ポリシーを
     - **有効**: 正
     - **[モード]** :強制
     - **DistributionStatus**:Success
-# <a name="proceed-to-lab-3---exercise-2"></a>ラボ 3 - 演習 2 に進む
-

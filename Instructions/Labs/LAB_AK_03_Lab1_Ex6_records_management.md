@@ -2,13 +2,8 @@
 lab:
   title: 演習 6 - レコード管理を構成する
   module: Module 3 - Implement Data Lifecycle and Records Management
-ms.openlocfilehash: 1d2e4a3980efe3d13bc98209d266b40c62a18871
-ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694931"
 ---
+
 # <a name="lab-3---exercise-6---configure-records-management"></a>ラボ 3 - 演習 6 - レコード管理を構成する
 
 この演習では、Contoso Ltd. のコンプライアンス管理者である Joni Sherman のロールを実行します。組織に対する規制要件には、企業が保険料を検討する際は、従業員が提供する医療保険情報の信頼できるコピーが必要であるというものが含まれます。 あなたは、レコードが管理されていることを確認する仕事を任せられました。
@@ -40,16 +35,16 @@ ms.locfileid: "147694931"
     - **カテゴリ**: 求人および採用
     - **規定および引用**:Health Insurance Portability and Accountability Act (医療保険の相互運用性と説明責任に関する法律) (1996 年)
 
-1. **[Define label settings]\(ラベル設定の定義\)** ページで、 **[Retain items forever or for a specific period]\(アイテムを無期限に、または特定の期間保持する\)** を選んでから、 **[次へ]** を選びます。
+1. **[Define label settings](ラベル設定の定義)** ページで、 **[Retain items forever or for a specific period](アイテムを無期限に、または特定の期間保持する)** を選んでから、 **[次へ]** を選びます。
 
-1. **[Define the period]\(期間の定義\)** ページで、次のオプションを選んでから、 **[次へ]** を選びます。
+1. **[Define the period](期間の定義)** ページで、次のオプションを選んでから、 **[次へ]** を選びます。
 
     - **保持期間**:7 年
     - **保持期間開始の条件**:アイテムが作成されたとき
 
-1. **[Choose what happens during the retention period]\(保持期間中の処理の選択\)** ページで **[Mark items as a record]\(アイテムをレコードとしてマークする\)** を選んでから、 **[次へ]** を選びます。
+1. **[Choose what happens during the retention period](保持期間中の処理の選択)** ページで **[Mark items as a record](アイテムをレコードとしてマークする)** を選んでから、 **[次へ]** を選びます。
 
-1. **[Choose what happens after the retention period]\(保持期間後の処理の選択\)** ページで **[Delete items automatically]\(アイテムを自動的に削除する\)** を選んで、 **[次へ]** を選びます。
+1. **[Choose what happens after the retention period](保持期間後の処理の選択)** ページで **[Delete items automatically](アイテムを自動的に削除する)** を選んで、 **[次へ]** を選びます。
 
 1. **[確認と完了]** ページで、**[ラベルの作成]** ボタンを選択します。  *[保持ラベルが作成されました]* ページで、 **[何も行わない]** オプションを選択して、 **[完了]** を選択します。
 
@@ -73,11 +68,11 @@ ms.locfileid: "147694931"
 
 1. **[従業員データ]** ラベル、**[追加]**、**[次へ]** の順に選択します。 
 
-1. **[Choose the type of retention policy to create]\(作成するアイテム保持ポリシーの種類を選択する\)** ページで、 **[静的]** を選びます。
+1. **[Choose the type of retention policy to create](作成するアイテム保持ポリシーの種類を選択する)** ページで、 **[静的]** を選びます。
 
 1. **[次へ]** ボタンを選択します。
 
-1. **[場所の選択]** ページで、 **[All locations.Includes content in Exchange email, Office 365 groups, OneDrive, and SharePoint documents.]\(すべての場所。Exchange メール、Office 365 グループ、OneDrive、SharePoint ドキュメントのコンテンツを含む。\)** を選択してから、 **[次へ]** を選択します。
+1. **[場所の選択]** ページで、 **[All locations.Includes content in Exchange email, Office 365 groups, OneDrive, and SharePoint documents.](すべての場所。Exchange メール、Office 365 グループ、OneDrive、SharePoint ドキュメントのコンテンツを含む。)** を選択してから、 **[次へ]** を選択します。
 
 1. **[ポリシーの名前を設定]** ページで、次の情報を入力して、**[次へ]** を選択します。
 
@@ -109,5 +104,3 @@ ms.locfileid: "147694931"
 1. 受信したメッセージを確認します。
 
 レコードが含まれる保持ラベルがメールに正常に適用され、削除できなくなったことを確認しました。
-
-## <a name="you-have-completed-the-lab-3"></a>これでラボ 3 は完了です。

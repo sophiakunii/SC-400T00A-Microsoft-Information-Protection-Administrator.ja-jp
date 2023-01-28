@@ -1,11 +1,3 @@
----
-ms.openlocfilehash: 4f7f7906c98ec1d248e3e6d7d6ee13cfb9c7d2b1
-ms.sourcegitcommit: 2e9e5dd78a50682b1afef130c7c566b7d929f854
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137899426"
----
 # <a name="sc-400t00-microsoft-information-protection-administrator"></a>SC-400T00:Microsoft Information Protection 管理者
 
 このリポジトリには、以下のコースのラボ手順が含まれています。
@@ -13,7 +5,7 @@ ms.locfileid: "137899426"
 - SC-400T00:Microsoft Information Protection 管理者
  
 
-**[最新の学生ハンドブックと AllFiles コンテンツをダウンロードする](../../releases/latest)**
+<!-- **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)** -->
 
 **あなたは MCT ですか?** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
 
@@ -29,19 +21,21 @@ ms.locfileid: "137899426"
 
 - 講師ハンドブックと PowerPoint は、引き続きコースのコンテンツを教えるための主要なソースになるでしょう。
 
-- GitHub にあるファイルは、受講者ハンドブックと組み合わせて使えるように設計されています。ただし、MCT とコースの作成者が最新のラボ ファイルのソースを共有できるように、中央リポジトリとして GitHub に置いてあります。
+<!-- - These files on GitHub are designed to be used in conjunction with the student handbook, but are in GitHub as a central repository so MCTs and course authors can have a shared source for the latest lab files. -->
 
 - トレーナーの皆様には、最新のAzureやMicrosoft 365のサービスに対応するために行われた変更をGitHubで確認し、最新のファイルを入手して配信することをお勧めします。
 
-## <a name="what-about-changes-to-the-student-handbook"></a>受講者ハンドブックの変更については?
+<!--
+## What about changes to the student handbook?
 
-- 受講者ハンドブックは四半期ごとに見直し、必要があれば通常の MOC リリースの手順を通して更新します。
+- We will review the student handbook on a quarterly basis and update through the normal MOC release channels as needed.
+-->
 
 ## <a name="how-do-i-contribute"></a>貢献するには?
 
 - すべての MCT は、GitHub repro のコードまたはコンテンツに pull request を送信できます。Microsoft とコース作成者は、必要に応じてコンテンツとラボ コードの変更をトリアージして追加します。
 
-- バグ、変更、改善、アイデアを送信できます。  新しい Azure 機能を先に見つけたら、  新しいデモを提出しましょう。
+- バグ、変更、改善、アイデアを送信できます。  新しい Azure 機能を先に見つけたら、  新しいデモを送信してください!
 
 ## <a name="notes"></a>Notes
 

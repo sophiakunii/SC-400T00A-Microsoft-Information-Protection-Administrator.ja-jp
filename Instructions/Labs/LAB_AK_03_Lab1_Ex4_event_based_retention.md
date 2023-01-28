@@ -2,13 +2,8 @@
 lab:
   title: 演習 4 - イベント ベースの保持を構成する
   module: Module 3 - Implement Data Lifecycle and Records Management
-ms.openlocfilehash: bc2419ca627eb18ee16fcd6cf2f9ff59a079521e
-ms.sourcegitcommit: 53488624251b6cf8f79f2d1ff561e3f334764821
-ms.translationtype: HT
-ms.contentlocale: ja-JP
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "147694952"
 ---
+
 # <a name="lab-3---exercise-4---configure-event-based-retention"></a>ラボ 3 - 演習 4 - イベント ベースの保持を構成する
 
 この演習でのあなたの役割は、Contoso Ltd. のコンプライアンス管理者 Joni Sherman です。あなたの組織はテキサスにあり、特定のプロジェクトに属するコンテンツを終了後 5 年間保持するための保持ポリシーを実装する必要があります。
@@ -55,15 +50,15 @@ ms.locfileid: "147694952"
 
 1. **[次へ]** ボタンを選択します。
 
-1. **[Define label settings]\(ラベル設定の定義\)** ページで、 **[Retain items forever or for a specific period]\(アイテムを無期限に、または特定の期間保持する\)** の設定を有効にします。
+1. **[Define label settings](ラベル設定の定義)** ページで、 **[Retain items forever or for a specific period](アイテムを無期限に、または特定の期間保持する)** の設定を有効にします。
 
 1. **[期間の定義]** ページで、次の情報を設定します。
-    - **[How long is the period]\(期間の長さ\)** : 5 年。
-    - **[When should the period begin?]\(期間を開始するタイミング\)** : プロジェクトの完了
+    - **[How long is the period](期間の長さ)** : 5 年。
+    - **[When should the period begin?](期間を開始するタイミング)** : プロジェクトの完了
 
 1. **[次へ]** ボタンを選択します。
 
-1. **[Choose what happens after the retention period]\(保持期間後の処理の選択\)** ページで **[Delete items automatically]\(アイテムを自動的に削除する\)** を選んで、 **[次へ]** を選びます。
+1. **[Choose what happens after the retention period](保持期間後の処理の選択)** ページで **[Delete items automatically](アイテムを自動的に削除する)** を選んで、 **[次へ]** を選びます。
 
 1. **[確認と完了]** ページで、**[ラベルの作成]** ボタンを選択します。  **[保持ラベルが作成されました]** ページで、 **[何も行わない]** オプションを選択して、 **[完了]** を選択します。
 
@@ -187,5 +182,3 @@ ms.locfileid: "147694952"
 1. コンテキスト メニューの **[削除]** を選んで、結果を確認します。
 
 ドキュメントの保持期間が開始されたことを正常に確認しました。 ドキュメントをまだ削除できる場合は、イベントの同期期間が完了しておらず、保持ポリシーのトリガーがまだ進行中です。 他の保持ラベルと同様に、このプロセスの完了には最大で 7 日かかることがあります。
-
-# <a name="proceed-to-lab-3---exercise-5"></a>ラボ 3 - 演習 5 に進む
