@@ -3,12 +3,19 @@ lab:
   title: 演習 1 - DLP ポリシーを管理する
   module: Module 2 - Implement Data Loss Prevention
 ---
+## WWL テナント - 使用条件
 
-# <a name="lab-2---exercise-1---manage-dlp-policies"></a>ラボ 2 演習 1 - DLP ポリシーを管理する
+講師による指導付きトレーニング配信の一環としてテナントを提供されている場合は、講師による指導付きトレーニングでハンズオン ラボをサポートする目的でテナントを利用できることに注意してください。
+
+テナントを共有したり、ハンズオン ラボ以外の目的で使用したりしないでください。 このコースで使われるテナントは試用版テナントであり、クラスが終了し、拡張機能の対象となっていない場合は、使用したりアクセスしたりすることはできません。
+
+テナントを有料サブスクリプションに変換することはできません。 このコースの一環として取得したテナントは Microsoft Corporation の財産のままであり、当社はいつでもアクセス権とリポジトリを取得する権利を留保します。
+
+# ラボ 2 演習 1 - DLP ポリシーを管理する
 
 あなたは Contoso Ltd. が新しく採用したコンプライアンス管理者、Joni Sherman です。データ損失防止の目的で、組織の Microsoft 365 テナントを構成する任務を負っています。 Contoso Ltd. は米国で運転指導を提供している会社であり、顧客の機密情報が組織から流出しないようにする必要があります。
 
-### <a name="task-1--create-a-dlp-policy-in-test-mode"></a>タスク 1 - テスト モード で DLP ポリシーを作成する
+## タスク 1 - テスト モード で DLP ポリシーを作成する
 
 この演習では、Microsoft Purview ポータルでデータ損失防止ポリシーを作成し、ユーザーによる機密データの共有を防止します。 作成する DLP ポリシーは、ユーザーがクレジット カード情報を含むコンテンツを共有したい場合に通知を行い、この情報を送信する正当な理由を提供する機会を提供します。 このブロックのアクションがユーザーに影響を与えないよう、このポリシーはテスト モードで実行されます。
 
@@ -70,13 +77,13 @@ lab:
 
 これで、Microsoft Teams のチャットおよびチャンネルでクレジット カード番号をスキャンし、ポリシーをオーバーライドする業務上の正当な理由をユーザーが提供できるようにする DLP ポリシーが作成されました。
 
-### <a name="task-2---modify-a-dlp-policy"></a>タスク 2 - DLP ポリシーを修正する
+## タスク 2 - DLP ポリシーを修正する
 
 このタスクでは、前の手順で作成した既存の DLP ポリシーを変更して、メールでもクレジット カード情報をスキャンし、メール内のこのコンテンツをユーザーが共有する必要がある場合、ユーザーに通知します。
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。 
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** に、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
 1. **Purview ポータル**の左側のナビゲーション ペインで **[ポリシー]** を選択し、 **[データ]** で **[データ損失防止]** を選択します。
 
@@ -92,7 +99,7 @@ lab:
 
 既存の DLP ポリシーが修正され、コンテンツを探してスキャンする場所が変更されました。
 
-### <a name="task-3---create-a-dlp-policy-in-powershell"></a>タスク 3 - PowerShell に DLP ポリシーを作成する
+## タスク 3 - PowerShell に DLP ポリシーを作成する
 
 このタスクでは、PowerShell を使用して、Contoso EmployeeID を保護し、それらが Exchange で共有されるのを防止する DLP ポリシーを作成します。 ユーザーには、機密データが共有されようとしていることと、Contoso EmployeeID が含まれるメールの送信はブロックされることが通知されます。
 
@@ -126,13 +133,13 @@ lab:
 
 これで、PowerShell を使用して Exchange で Contoso EmpoloyeeID をスキャンする DLP ポリシーが作成されました。
 
-### <a name="task-4---activate-a-policy-in-test-mode"></a>タスク 4 - テスト モードでポリシーをアクティブにする
+## タスク 4 - テスト モードでポリシーをアクティブにする
 
 このタスクでは、テストモードで作成したクレジット カード情報の DLP ポリシーをアクティブ化し、保護アクションを強化します。
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。 
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** に、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ペインで **[ポリシー]** を選択し、 **[データ]** で **[データ損失防止]** を選択します。
 
@@ -146,7 +153,7 @@ lab:
 
 DLP ポリシーがアクティブ化されました。 ポリシーはクレジット カード情報を共有しようとする試みを探知すると、それをブロックし、ユーザーにはそのブロックのアクションをオーバーライドする業務上の正当な理由を提供することを許可します。
 
-### <a name="task-5---modify-policy-priority"></a>タスク 5 - ポリシーの優先順位を修正する
+## タスク 5 - ポリシーの優先順位を修正する
 
 DLP ポリシーを 2 つ作成したところで、より制限の厳しいポリシーが、より制限の緩いポリシーより優先して処理されるようにします。 このため、EmployeeID の DLP ポリシーにより高い優先順位を与えます。
 
@@ -164,7 +171,7 @@ DLP ポリシーを 2 つ作成したところで、より制限の厳しいポ�
 
 DLP ポリシーの優先順位が修正されました。 両方のポリシーが同じコンテンツに一致する場合、より高い優先順位を持つアクションが実行されます。
 
-### <a name="task-6---enable-file-monitoring-in-microsoft-defender-for-cloud-apps"></a>タスク 6 - Microsoft Defender for Cloud Apps でファイルの監視を有効にする
+## タスク 6 - Microsoft Defender for Cloud Apps でファイルの監視を有効にする
 
 Microsoft Defender for Cloud Apps のファイル ポリシーを使用し、OneDrive と SharePoint Online の場所にあるファイルを保護します。 ファイル ポリシーを作成するには、組織内のファイルを Microsoft Defender for Cloud Apps でスキャンできるようにファイル監視を有効にする必要があります。
 
@@ -182,7 +189,7 @@ Microsoft Defender for Cloud Apps のファイル ポリシーを使用し、One
 
 Microsoft Defender for Cloud Apps でファイル監視が有効になりました。これでファイル ポリシーを使用して、機密性の高いコンテンツのファイルをスキャンできるようになりました。
 
-### <a name="task-7---create-file-policy-for-microsoft-defender-for-cloud-apps"></a>タスク 7 - Microsoft Defender for Cloud Apps のファイル ポリシーを作成する
+## タスク 7 - Microsoft Defender for Cloud Apps のファイル ポリシーを作成する
 
 このタスクでは、Microsoft Defender for Cloud Apps でファイル ポリシーを作成し、OneDrive と SharePoint Online のファイルをスキャンして、クレジット カード情報を含むファイルが共有されている場合はそのファイルに対して自動的に検疫を行います。
 
@@ -218,7 +225,7 @@ Microsoft Defender for Cloud Apps でファイル監視が有効になりまし�
 
 これで、OneDrive と SharePoint に保存されたファイルを継続的にスキャンしてクレジット カード情報を探し、組織内で共有されている場合に検疫を行うファイル ポリシーが作成されました。
 
-### <a name="task-8---create-a-dlp-policy-for-powerplatform"></a>タスク 8 - PowerShell に DLP ポリシーを作成する
+## タスク 8 - PowerShell に DLP ポリシーを作成する
 
 会社では Power Automate のフローを用いて、データを SharePoint Online と SalesForce で共有します。 このタスクでは、既存のフローを続行させつつ、SharePoint Online とビジネス以外として定義されたアプリとの間でデータを共有するフローの作成を防止する、PowerPlatform 向けの DLP ポリシーを作成します。
 

@@ -4,11 +4,11 @@ lab:
   module: Module 1 - Implement Information Protection
 ---
 
-# <a name="lab-1---exercise-2---manage-office-365-message-encryption"></a>ラボ 1 - 演習 2 - Office 365 Message Encryption を管理する
+# ラボ 1 - 演習 2 - Office 365 Message Encryption を管理する
 
 Joni Sherman がパイロット チームで構成しテストする必要がある最初の設定は、Microsoft 365 の組み込みの Office 365 Message Encryption (OME) です。 この目的のために、彼女は既定のテンプレートを変更し、パイロット ユーザーの 1 人に割り当てられる新しいブランド テンプレートを作成します。 次に、パイロット ユーザーは各自のアカウントで OME 機能をテストします。
 
-### <a name="task-1--verify-azure-rms-functionality"></a>タスク 1 – Azure RMS の機能を確認する
+## タスク 1 – Azure RMS の機能を確認する
 
 このタスクでは、Exchange Online PowerShell モジュールをインストールし、前回の演習でコンプライアンス管理者のロールが割り当てられた Joni Sherman として、自分のテナントの Azure RMS の機能が正しいことを確認します。
 
@@ -70,7 +70,7 @@ Joni Sherman がパイロット チームで構成しテストする必要があ
 
 Exchange Online PowerShell モジュールがインストールされ、テナントに接続し、Azure RMS が正しく機能していることを確認しました。
 
-### <a name="task-2--modify-default-ome-template"></a>タスク 2 - 既定の OME テンプレートを修正する
+## タスク 2 - 既定の OME テンプレートを修正する
 
 組織からは Google や Facebook などの ID プロバイダーへの信頼を制限する要件が出されています。 既定では、このようなソーシャル ID は OME で保護されたメッセージにアクセスするためにアクティブ化されるので、組織内のすべてのユーザーに対してソーシャル ID の利用を非アクティブ化する必要があります。
 
@@ -102,7 +102,7 @@ Exchange Online PowerShell モジュールがインストールされ、テナ�
 
 Office 365 Message Encryption での Google、Facebook などの海外の ID プロバイダーの利用を非アクティブ化しました。
 
-### <a name="task-3--test-default-ome-template"></a>タスク 3 - 既定の OME テンプレートをテストする
+## タスク 3 - 既定の OME テンプレートをテストする
 
 テナントのユーザーから Office 365 Message Encryption で保護されたメッセージを受信するときに、ソーシャル ID ダイアログが外部の受信者に対して表示されていないことを確認する必要があります。暗号化されたコンテンツにアクセスするときはいつでも OTP を使用する必要があります。
 
@@ -154,7 +154,7 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 修正された、既定の OME テンプレートを非アクティブ化したソーシャル ID でテストしました。
 
-### <a name="task-4--create-custom-branding-template"></a>タスク 4 – カスタム ブランド テンプレートを作成する
+## タスク 4 – カスタム ブランド テンプレートを作成する
 
 組織の財務部が送信する、保護されたメッセージには、カスタマイズした導入や本文、フッターの免責事項のリンクなど、特別なブランド化が必要です。 財務のメッセージはまた、7 日経過した後期限切れとします。 このタスクでは、OME 構成を新しくカスタマイズし、財務部が送信するすべてのメールに対しその OME 構成を適用する転送ルールを作成します。
 
@@ -208,7 +208,7 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 財務部のメンバーが外部の受信者にメッセージを送信する際に、カスタム OME テンプレートが自動的に適用される転送ルールが新しく作成しました。
 
-### <a name="task-5--test-the-custom-branding-template"></a>タスク 5 – カスタム ブランド テンプレートをテストする
+## タスク 5 – カスタム ブランド テンプレートをテストする
 
 新しい、カスタム OME 構成を検証するため、財務チームのメンバーである Lynne Robbins のアカウントをもう一度利用する必要があります。
 
