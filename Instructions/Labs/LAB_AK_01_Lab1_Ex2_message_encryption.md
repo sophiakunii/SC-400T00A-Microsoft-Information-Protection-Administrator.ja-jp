@@ -12,7 +12,7 @@ Joni Sherman がパイロット チームで構成しテストする必要があ
 
 このタスクでは、Exchange Online PowerShell モジュールをインストールし、前回の演習でコンプライアンス管理者のロールが割り当てられた Joni Sherman として、自分のテナントの Azure RMS の機能が正しいことを確認します。
 
-1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインしておきます。
+1. 引き続き Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインしている必要があります。
 
 1. マウスの右ボタンで Windows ボタンを選択して昇格された PowerShell ウィンドウを開き、 **[Windows PowerShell (管理者)]** を選択します。
 
@@ -24,9 +24,9 @@ Joni Sherman がパイロット チームで構成しテストする必要があ
     Install-Module ExchangeOnlineManagement
     ```
 
-1. NuGet プロバイダー セキュリティ ダイアログで、[はい] を示す **[Y]** を選択して確定し、**Enter** キーを押します。 この処理は、完了するまでに数秒かかる場合があります。
+1. NuGet プロバイダー セキュリティ ダイアログで、[はい] を示す **[Y]** を選択して確定し、**Enter** キーを押します。 この処理は、完了までに時間がかかる場合があります。
 
-1. 信頼されていないレポジトリ セキュリティ ダイアログで、[はい] を示す **[Y]** を選択して確定し、**Enter** キーを押します。  この処理は、完了するまでに数秒かかる場合があります。
+1. 信頼されていないレポジトリ セキュリティ ダイアログで、[はい] を示す **[Y]** を選択して確定し、**Enter** キーを押します。  この処理は、完了までに時間がかかる場合があります。
 
 1. 次のコマンドレットを入力して実行ポリシーを変更し、**Enter** キーを押します。
 
@@ -34,7 +34,7 @@ Joni Sherman がパイロット チームで構成しテストする必要があ
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     ```
 
-1. [実行ポリシーの変更] で、[はい] を示す **[Y]** を選択して確定し、**Enter** キーを押します。 
+1. [実行ポリシーの変更] で、[はい] を示す **[Y]** を選択して確定し、**Enter** キーを押します。
 
 1. PowerShell ウィンドウを閉じます。
 
@@ -46,7 +46,7 @@ Joni Sherman がパイロット チームで構成しテストする必要があ
     Connect-ExchangeOnline
     ```
 
-1. **[サインイン]** ウィンドウが表示されたら、JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **[サインイン]** ウィンドウが表示されたら、JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 前のラボでリセットした Joni のパスワードを使用します。
 
 1. 次のコマンドレットを使用して、テナントで Azure RMS および IRM がアクティブ化されていることを確認し、**Enter** キーを押します。
 
@@ -146,7 +146,7 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 1. 個人用のメール ポータルを開き、**"メッセージを表示するためのワンタイム パスコード"** という件名のメッセージを開きます。
 
-1. パスコードをコピーして、OME ポータルにペーストし、**[続行]** を選択します。
+1. パスコードをコピーして、OME ポータルに貼り付け、 **[続行]** を選択します。
 
 1. 暗号されたメッセージを確認します。
 
@@ -158,7 +158,7 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 組織の財務部が送信する、保護されたメッセージには、カスタマイズした導入や本文、フッターの免責事項のリンクなど、特別なブランド化が必要です。 財務のメッセージはまた、7 日経過した後期限切れとします。 このタスクでは、OME 構成を新しくカスタマイズし、財務部が送信するすべてのメールに対しその OME 構成を適用する転送ルールを作成します。
 
-1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントとしてログインします。Exchange Online が接続された状態の PowerShell ウィンドウを開いたままにしておく必要があります。
+1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。また、Exchange Online が接続された状態の PowerShell ウィンドウを開いたままにしておく必要があります。
 
 1. 次のコマンドレットを実行して、新しい OME 構成を作成します。
 
@@ -199,11 +199,11 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
     ```
 
 1. 次のコマンドレットを入力して変更を確認します。
-    
+
     ```powershell
     Get-OMEConfiguration -Identity "Finance Department" | Format-List
     ```
-    
+
 1. PowerShell は開いたままにします。
 
 財務部のメンバーが外部の受信者にメッセージを送信する際に、カスタム OME テンプレートが自動的に適用される転送ルールが新しく作成しました。
@@ -212,9 +212,9 @@ Office 365 Message Encryption での Google、Facebook などの海外の ID プ
 
 新しい、カスタム OME 構成を検証するため、財務チームのメンバーである Lynne Robbins のアカウントをもう一度利用する必要があります。
 
-1. Client 2 VM (LON-CL2) に **lon-cl2\admin** アカウントでログインします。 
+1. Client 2 VM (LON-CL2) に **lon-cl2\admin** アカウントでログインします。
 
-1. タスク バーから **[Microsoft Edge]** を選択します。 [Outlook on the web] タブはまだ開いているはずです。**Lynne Robbins** としてログインする必要があります。 
+1. タスク バーから **[Microsoft Edge]** を選択します。 [Outlook on the web] タブはまだ開いているはずです。**Lynne Robbins** としてログインする必要があります。
 
 1. Outlook on the web の左上部から **[新規メッセージ]** を選択します。
 

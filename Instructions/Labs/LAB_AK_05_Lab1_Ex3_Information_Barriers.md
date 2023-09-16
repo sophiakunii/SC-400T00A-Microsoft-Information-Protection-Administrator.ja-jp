@@ -12,9 +12,11 @@ Contoso Ltd. のコンプライアンス管理者である Joni は、Microsoft 
 
 このタスクでは、Microsoft Teams で **[名前で検索**] 機能が有効になっていることを確認します。 この機能を使用すると、ユーザーは組織内の特定の個人を簡単に検索して見つけることができます。 提供されている手順に従って、この機能を構成してアクティブ化し、コラボレーションを強化し、組織の Microsoft Teams 環境内でのコミュニケーションを効率化します。
 
+1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
+
 1. 今も Joni のアカウントでサインインしている場合は、このアカウントからサインアウトし、すべてのブラウザー ウィンドウを閉じてください。
 
-1. **Microsoft Edge** で、 **https://admin.teams.microsoft.com** に移動し、Microsoft Purview ポータルに MOD 管理者 admin@WWLxZZZZZZ.onmicrosoft.com としてログインしてください (ZZZZZZ はラボ ホスティング プロバイダーから支給された一意のテナント ID です)。 Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **https://admin.teams.microsoft.com** に移動し、Microsoft Purview ポータルに MOD 管理者 admin@WWLxZZZZZZ.onmicrosoft.com としてログインしてください (ZZZZZZ はラボ ホスティング プロバイダーから支給された一意のテナント ID です)。
 
 1. 左側のナビゲーション ウィンドウの **[Teams]** ドロップダウンで、 **[Teams の設定]** を選択してください
 
