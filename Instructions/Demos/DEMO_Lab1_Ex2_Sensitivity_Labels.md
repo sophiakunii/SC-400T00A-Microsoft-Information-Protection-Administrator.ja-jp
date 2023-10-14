@@ -1,90 +1,18 @@
 ---
 lab:
-  title: 演習 5 - 秘密度ラベルを管理する
-  module: Module 1 - Implement Information Protection
+  title: セッション 1 - Microsoft Purview Information Protection
+  module: Learning Objective - Implement Data Loss Prevention in Microsoft Purview
 ---
 
-# ラボ 1 - 演習 5 - 秘密度ラベルを管理する
+# デモ ラボ 2: 秘密度ラベルを管理する
 
-このラボでは、Contoso Ltd. のシステム管理者である Joni Sherman のロールを実行します。組織はドイツのレドニッツヘムバッハに拠点を置いており、現在、人事部のすべての従業員ドキュメントが組織の情報保護ポリシーの一部として秘密度ラベルが付けてあることを確認するための秘密度計画を実施しています。
-
-## タスク 1 秘密度ラベルのサポートを有効にする
-
-このタスクでは、MSOnline モジュールと SharePoint Online PowerShell モジュールをインストールし、テナントでの秘密度ラベルのサポートを有効にします。
-
-1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
-
-1. マウスの右ボタンでスタート メニューを選択して管理者特権で PowerShell ウィンドウを開き、**Windows PowerShell** を選択して管理者として実行します。
-
-1. **[ユーザー アカウント制御]** ウィンドウで **[はい]** をクリックして確認し、Enter キーを押します。
-
-1. 次のコマンドレットを入力して、最新の MS Online PowerShell モジュール バージョンをインストールします。
-
-   ```powershell
-   Install-Module -Name MSOnline
-   ```
-
-1. NuGet セキュリティ ダイアログと信頼されていないレポジトリ セキュリティ ダイアログを **Y** (はい) で確認し、Enter キーを押します。  この処理が完了するまでしばらく時間がかかる場合があります。
-
-1. 次のコマンドレットを入力して、最新の SharePoint Online PowerShell モジュール バージョンをインストールします。
-
-    ```powershell
-    Install-Module -Name Microsoft.Online.SharePoint.PowerShell
-    ```
-
-1. 信頼されていないリポジトリ セキュリティ ダイアログで "はい" の **Y** を入力して確認し、Enter キーを押します。
-
-1. 次のコマンドレットを入力して、MS Online サービスに接続します。
-
-    ```powershell
-    Connect-MsolService
-    ```
-
-1. **[アカウントにサインイン]** フォームで、**Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
-
-1. サインイン後、PowerShell ウィンドウを選択します。
-
-1. 次のコマンドレットを入力して、ドメインを取得します。
-
-    ```powershell
-    $domain = get-msoldomain
-    ```
-
-1. 次のコマンドレットを入力して、SharePoint 管理 URL を作成します。
-
-    ```powershell
-    $adminurl = "https://" + $domain.Name.split('.')[0] + "-admin.sharepoint.com"
-    ```
-
-1. 次のコマンドレットを入力して、SharePoint Online 管理センターにサインインします。
-
-    ```powershell
-    Connect-SPOService -url $adminurl
-    ```
-
-1. **[アカウントにサインイン]** フォームで、**MOD 管理者** としてサインインします。 admin@WWLxZZZZZZ.onmicrosoft.com (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
-
-1. サインイン後、PowerShell ウィンドウを選択します。
-
-1. 次のコマンドレットを入力して、秘密度ラベルのサポートを有効にします。
-
-    ```powershell
-    Set-SPOTenant -EnableAIPIntegration $true
-    ```
-
-1. "はい" の **Y** を入力して確認し、Enter キーを押します。
-
-1. PowerShell ウィンドウを閉じます。
-
-これで、Teams および SharePoint サイトでの秘密度ラベルのサポートが有効になりました。
-
-## タスク 2 – 秘密度ラベルを作成する
+## タスク 1 – 秘密度ラベルを作成する
 
 このタスクでは、人事部が HR 従業員ドキュメントに適用する秘密度ラベルを要求しています。 内部ドキュメントの秘密度ラベルと人事部のサブラベルを作成します。
 
 1. 引き続き Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインしている必要があります。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して Microsoft Purview ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーによって提供された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com (ここで、ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID) としてログインしてください。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. Microsoft Purview ポータルの左ナビゲーション ペインで、 **[情報の保護]** を展開してから、 **[ラベル]** を選択します。
 
@@ -171,11 +99,11 @@ lab:
 
 組織の内部ポリシーの秘密度ラベルと、人事 (HR) 部門の秘密度サブラベルが正常に作成されました。
 
-## タスク 3 – 秘密度ラベルを発行する
+## タスク 2 – 秘密度ラベルを発行する
 
 次に、内部と人事の秘密度ラベルを発行します。これにより、発行された秘密度ラベルを人事ユーザーが人事ドキュメントに適用できるようになります。
 
-1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。  JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. Client 1 VM (LON-CL1) には引き続き **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **MOD 管理者** としてログインしている必要があります。admin@WWLxZZZZZZ.onmicrosoft.com としてサインインしてください (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **Microsoft Edge** に、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
@@ -222,11 +150,11 @@ lab:
 
 内部と人事の秘密度ラベルが正常に発行されました。 なお、変更内容がすべてのユーザーやサービスにレプリケートされるまで、最大で 24 時間かかることがあります。
 
-## タスク 4 – 秘密度ラベルを使って作業する
+## タスク 3 – 秘密度ラベルを使って作業する
 
 このタスクでは、Word と Outlook の電子メールで秘密度ラベルを作成します。 作成されたドキュメントは OneDrive に保存され、電子メールで人事部の従業員に送信されます。
 
-1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインしておく必要があります (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. Client 1 VM (LON-CL1) には引き続き **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインしている必要があります (ZZZZZZ はラボ ホスティング プロバイダーから支給されたご自分の一意のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **Microsoft Edge** に、Microsoft Purview ポータルのタブがまだ開かれているはずです。 アドレス バーを選択し、 **https://portal.office.com** に移動します。
 
@@ -282,13 +210,13 @@ lab:
 
 OneDrive に保存された秘密度ラベル付きの HR Word ドキュメントが正常に作成されました。 その後、人事のスタッフ メンバーに電子メールでドキュメントを送付しましたが、その電子メールにも秘密度ラベルが設定されていました。
 
-## タスク 5 – 自動ラベル付けを構成する
+## タスク 4 – 自動ラベル付けを構成する
 
 このタスクでは、欧州の一般データ保護規則 (GPDR) に関連する情報が含まれていることが検出されたドキュメントや電子メールに自動的にラベルを付ける秘密度ラベルを作成します。
 
 1. 引き続き Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインしている必要があります。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して、**MOD 管理者** として Microsoft Purview ポータルにログインしてください。
 
 1. Microsoft Purview ポータルの左ナビゲーション ペインで、 **[情報の保護]** を展開してから、 **[ラベル]** を選択します。
 

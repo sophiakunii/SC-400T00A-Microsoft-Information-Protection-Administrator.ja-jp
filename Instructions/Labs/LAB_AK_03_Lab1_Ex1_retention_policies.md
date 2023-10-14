@@ -168,7 +168,7 @@ PowerShell を使って保持期間を 3 年に設定した保持ポリシーを
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** に、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
 1. 左側のナビゲーション ウィンドウの **Microsoft Purview** ポータルで、 **[ロールとスコープ]** を展開し、 **[アダプティブ スコープ]** を選択します。
 
