@@ -53,8 +53,8 @@ lab:
 
 1. **[優先度ユーザー グループの名前と説明]** ページで、次を入力します。
 
-    - **[名前]** : Finance team
-    - **[説明]** : Team members that manage financial operations, budgeting, and reporting
+    - **[名前]**: Finance team
+    - **[説明]**: Team members that manage financial operations, budgeting, and reporting
 
 1. **[次へ]** を選択します。
 
@@ -64,7 +64,7 @@ lab:
 
 1. **[メンバーの選択]** ページで、 **[次へ]** を選択します。
 
-1. **[この優先度グループのユーザーが関係するデータを表示できるユーザーの選択]** で、 **[+ ユーザーとロール グループの選択]** を選択します。
+1. **[この優先度グループのユーザーが関係するデータを表示できるユーザーの選択]** で、**[+ ユーザーとロール グループの選択]** を選択します。
 
 1. **[ユーザーとロール グループの選択]** ページで、 **[インサイダー リスク管理]** の横にあるチェック ボックスを選択して、Microsoft Purview でインサイダー リスク管理のロールを持つすべてのメンバーを追加し、 **[追加]** を選択します。
 
@@ -90,8 +90,8 @@ lab:
 
 1. **[ポリシーに名前をつける] ページ**で、以下を入力します。
 
-    - **[名前]** : Financial Data Protection
-    - **[説明]** : Sensitive financial data access monitoring
+    - **[名前]**: Financial Data Protection
+    - **[説明]**: Sensitive financial data access monitoring
 
 1. **[次へ]** を選択します。
 
