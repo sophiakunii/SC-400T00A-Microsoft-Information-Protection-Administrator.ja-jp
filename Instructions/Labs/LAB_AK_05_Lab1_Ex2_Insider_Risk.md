@@ -16,7 +16,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. Microsoft Edge で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに MOD 管理者 **admin@WWLxZZZZZZ.onmicrosoft.com** (ここで、ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID) としてログインします。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. Microsoft Edge で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに MOD 管理者 **admin@WWLxZZZZZZ.onmicrosoft.com** としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **[ロールとスコープ]** に移動し、ドロップダウンから **[アクセス許可]** を選択します。
 
@@ -28,7 +28,7 @@ lab:
 
 1. **[ロール グループのメンバーの編集]** ページで、 **[+ ユーザーの選択]** を選択します。
 
-1. **[ユーザーの選択]** ページで、[Joni Sherman] の横にあるチェック ボックスを選択し、 **[選択]** ボタンを選択します。
+1. **[ユーザーの選択]** ページで、[Joni Sherman] の横にあるチェック ボックスを選択し、**[選択]** ボタンを選択します。
 
 1. **[ロール グループのメンバーの編集]** ページで、 **[次へ]** を選択します。
 
@@ -48,7 +48,7 @@ lab:
 
 1. 左側のナビゲーション バーから **[インサイダー リスク管理]** を選択します。
 
-1. 右上にある **[設定]** の歯車アイコンを選択します。
+1. 右上にある **[設定]** の歯車アイコンを選択します。 
 
 1. 設定を詳しく見てみましょう。
 
@@ -83,8 +83,8 @@ lab:
 
 1. **[優先度ユーザー グループの名前と説明]** ページで、次を入力します。
 
-    - **[名前]** : Finance team
-    - **[説明]** : Team members that manage financial operations, budgeting, and reporting
+    - **[名前]**: Finance team
+    - **[説明]**: Team members that manage financial operations, budgeting, and reporting
 
 1. **[次へ]** を選択します。
 
@@ -94,7 +94,7 @@ lab:
 
 1. **[メンバーの選択]** ページで、 **[次へ]** を選択します。
 
-1. **[この優先度グループのユーザーが関係するデータを表示できるユーザーの選択]** で、 **[+ ユーザーとロール グループの選択]** を選択します。
+1. **[この優先度グループのユーザーが関係するデータを表示できるユーザーの選択]** で、**[+ ユーザーとロール グループの選択]** を選択します。
 
 1. **[ユーザーとロール グループの選択]** ページで、 **[インサイダー リスク管理]** の横にあるチェック ボックスを選択して、Microsoft Purview でインサイダー リスク管理のロールを持つすべてのメンバーを追加し、 **[追加]** を選択します。
 
@@ -122,8 +122,8 @@ lab:
 
 1. **[ポリシーに名前をつける] ページ**で、以下を入力します。
 
-    - **[名前]** : Financial Data Protection
-    - **[説明]** : Sensitive financial data access monitoring
+    - **[名前]**: Financial Data Protection
+    - **[説明]**: Sensitive financial data access monitoring
 
 1. **[次へ]** を選択します。
 
@@ -145,9 +145,8 @@ lab:
 
    - **[Downloading content from SharePoint] (SharePoint からコンテンツをダウンロードする)**
    - **[Sending email with attachments to recipients outside the organization] (組織外の受信者に添付ファイルを含む電子メールを送信する)**
-   - **[Using a browser to upload files to the web] (ブラウザーを使用して Web にファイルをアップロードする)**
    - **[Sharing SharePoint files with people outside the organization] (組織外のユーザーと SharePoint ファイルを共有する)**
-   - **[File copied to remote desktop session] (リモート デスクトップ セッションにファイルがコピーされる)**
+   - **Microsoft 365 の場所からダウンロードして抽出する**
 
     >**注**: ポリシーのトリガーを選択できない場合は、インジケーターを有効にするためのヒントが表示される場合があります。 このオプションが表示される場合は、 **[Turn on indicators] (インジケーターを有効にする)** を選択します。 **[Choose indicators to turn on] (インジケーターを選択して有効にする)** ポップアップで、 **[Office インジケーター]** の **[すべて選択]** の横にあるチェック ボックスをクリックし、 **[保存]** を選択します。
 
@@ -175,7 +174,7 @@ lab:
 
 1. Microsoft Purview のインサイダー リスク管理で、引き続き Joni としてログインする必要があります。
 
-1. 上部のナビゲーション タブで **[通知テンプレート]** を選択し、 **[+ 通知テンプレートの作成]** を選択します。
+1. 上部のナビゲーション タブで **[通知テンプレート]** を選択し、**[+ 通知テンプレートの作成]** を選択します。
 
 1. 右側の **[新しい通知テンプレートの作成]** ポップアップ ページに必要な情報を入力します。
 
