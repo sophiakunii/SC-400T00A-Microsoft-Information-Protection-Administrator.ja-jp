@@ -16,7 +16,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、**[データ ライフサイクル管理]** を展開して **[Microsoft 365]** を選択します。
 
@@ -28,7 +28,7 @@ lab:
     - **ユーザー向けの説明**:このラベルを VAT ドキュメントに割り当てることで、法的に定められた 7 年間の保持されるようにします。
     - **管理者向けの説明**:7 年間保持される VAT の還付。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[Define label settings] (ラベル設定の定義)** ページで、**[Retain items forever or for a specific period] (アイテムを無期限に、または特定の期間保持する)** を選択し、**[次へ]** を選択します。
 
@@ -37,7 +37,7 @@ lab:
     - **[How long is the period?](期間の長さ)** : 7 年
     - **[When should the period begin?](期間を開始するタイミング)** : アイテムが作成されたとき
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[保持期間後の処理の選択]** ページで **[保持設定の非アクティブ化]** を選択し、**[次へ]** を選択します。
 
@@ -53,7 +53,7 @@ lab:
     - **ユーザー向けの説明**:このラベルは、クレジット カードの領収書に自動的に適用され、保持期間は 3 年です。
     - **管理者向けの説明**:クレジット カードの領収書を 3 年間保持するための、自動適用された保持ラベル。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[Define label settings] (ラベル設定の定義)** ページで、**[Retain items forever or for a specific period] (アイテムを無期限に、または特定の期間保持する)** を選択し、**[次へ]** を選択します。
 
@@ -62,7 +62,7 @@ lab:
     - **[Retain items for] (アイテムの保持期間)**: ドロップダウン リストを選択し、**[カスタム]** を選択します。 年に「3」と入力します。
     - **[Start the retention period based on] (保持期間開始の条件)**: アイテムが作成されたとき。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[保持期間後の処理の選択]** ページで **[保持設定の非アクティブ化]** を選択し、**[次へ]** を選択します。
 
@@ -78,7 +78,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、**[データ ライフサイクル管理]** を展開して **[Microsoft 365]** を選択します。
 
@@ -101,14 +101,14 @@ lab:
     - **OneDrive アカウント**
     - **[Microsoft 365 グループのメールボックスとサイト]** を無効にします
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[ポリシーに名前をつける]** で、以下を入力します。
 
     - **[名前]** : VAT の還付と関連書類の保持ラベル
     - **[説明]** : VAT の還付と関連書類の保持ラベル、保持期間 3 年、Exchange メールと SharePoint サイトの場所。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[完了]** ページで **[送信]** を選択します。  
 
@@ -122,7 +122,7 @@ VAT の還付と関連書類の保持ラベルが正常に発行されました�
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで **[ポリシー]** を選択し、 **[データ]** で **[保持]** を選択します。
 
@@ -158,7 +158,7 @@ VAT の還付と関連書類の保持ラベルが正常に発行されました�
     - **OneDrive アカウント**
     - **Microsoft 365 グループのメールボックスとサイト**
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[自動適用するラベルを選択する]** ページで **[次へ]** を選択します。
 
@@ -176,7 +176,7 @@ VAT の還付と関連書類の保持ラベルが正常に発行されました�
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で **https://outlook.office.com/** に移動し、**Megan Bowen** のアカウントでログインします。
+1. **Microsoft Edge** で **`https://outlook.office.com/`** に移動し、**Megan Bowen** のアカウントでログインします。
 
 1. Megan の受信トレイで、マウスの右ボタンを押して最初のメールを選択し、**[Advanced actions] (詳細アクション) > [ポリシーの割り当て] > [VAT の還付と関連書類]** を選択します。 新しく作成したラベルを使用できない場合は、この演習では **[1 か月で削除]** を選択します。
 
@@ -214,7 +214,7 @@ Outlook フォルダーに正常に保持ラベルを適用しました。
 
 1. 引き続き Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインしている必要があります。
 
-1. **Microsoft Edge** で、**https://www.office.com** に移動して、**Joni Sherman** として Microsoft 365 にログインします。
+1. **Microsoft Edge** で、**`https://www.office.com`** に移動して、**Joni Sherman** として Microsoft 365 にログインします。
 
 1. Microsoft 365 のランディング ページで、左上の角にあるアプリ ランチャー アイコン (9つのドット) を選択し、サブメニューから **[SharePoint]** を選択します。
 1. ダイアログが表示されたら、 **[SharePoint へようこそ] スタート ページ**ウィンドウを閉じます。
@@ -241,7 +241,7 @@ SharePoint のドキュメントに正常に保持ラベルを適用しました
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、**https://www.office.com** に移動して、**Joni Sherman** として Microsoft 365 にログインします。
+1. **Microsoft Edge** で、**`https://www.office.com`** に移動して、**Joni Sherman** として Microsoft 365 にログインします。
 
 1. Microsoft 365 のランディング ページで、左上の角にあるアプリ ランチャー アイコン (9つのドット) を選択し、サブメニューから **[OneDrive]** を選択します。
 

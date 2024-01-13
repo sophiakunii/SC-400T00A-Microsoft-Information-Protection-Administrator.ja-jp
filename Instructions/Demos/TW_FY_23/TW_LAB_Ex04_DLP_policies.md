@@ -5,9 +5,9 @@ lab:
 ---
 ## WWL テナント - 使用条件
 
-講師が指導するトレーニング配信の一環としてテナントを提供されている場合は、講師が指導するトレーニングでハンズオンラボをサポートする目的でテナントを利用できることに注意してください。
+講師による指導付きトレーニング配信の一環としてテナントを提供されている場合は、講師による指導付きトレーニングでハンズオン ラボをサポートする目的でテナントを利用できることに注意してください。
 
-テナントを共有したり、ハンズオンラボ以外の目的で使用したりしないでください。 このコースで使われるテナントは試用版テナントであり、クラスが終了し、拡張機能の対象となっていない場合は、使用したりアクセスしたりすることはできません。
+テナントを共有したり、ハンズオン ラボ以外の目的で使用したりしないでください。 このコースで使われるテナントは試用版テナントであり、クラスが終了し、拡張機能の対象となっていない場合は、使用したりアクセスしたりすることはできません。
 
 テナントを有料サブスクリプションに変換することはできません。 このコースの一環として取得したテナントは Microsoft Corporation の財産のままであり、当社はいつでもアクセス権とリポジトリを取得する権利を留保します。
 
@@ -21,7 +21,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。 JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。 JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **[サインインの状態を維持しますか?]** ダイアログボックスが表示されたら、 **[今後、このメッセージを表示しない]** チェックボックスをオンにし、 **[いいえ]** を選択します。
 
@@ -86,7 +86,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで **[データ損失防止]** を展開し、**[ポリシー]** を選択します。
 
@@ -146,7 +146,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には Joni Sherman としてログインしておく必要があります。
 
-1. Microsoft Edge ブラウザー ウィンドウを開き、 **`https://outlook.office.com/`** に移動します。
+1. Microsoft Edge ブラウザー ウィンドウを開き、 **https://outlook.office.com/** に移動します。
 
 1. 左上にある **[新しいメール]** ボタンを選択して、新しいメール メッセージを作成します。
 
@@ -180,7 +180,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで **[データ損失防止]** を展開し、**[ポリシー]** を選択します。
 
@@ -200,7 +200,7 @@ DLP ポリシーを 2 つ作成したところで、より制限の厳しいポ�
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで **[データ損失防止]** を展開し、**[ポリシー]** を選択します。
 
@@ -218,7 +218,7 @@ Microsoft 365 Defender のファイル ポリシーを使用し、OneDrive と S
 
 1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 右上にある Joni Sherman の **[プロフィール画像]** を選択し、 **[サインアウト]** を選択したら、ブラウザーを閉じます。
 
-1. **Microsoft Edge** を開き、 **`https://security.microsoft.com`** に移動して Microsoft 365 Defender ポータルに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** を開き、 **https://security.microsoft.com** に移動して Microsoft 365 Defender ポータルに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. 左側のナビゲーション ウィンドウで下にスクロールし、 **[設定]** を選択します。
 
@@ -238,7 +238,7 @@ Microsoft 365 Defender でファイル監視が有効になりました。これ
 
 1. **Microsoft Edge** に、Microsoft Defender for Cloud Apps ポータルのタブがまだ開かれているはずです。 右上にある MOD 管理者の **[プロフィール画像]** を選択し、歯車の横にある **[サインアウト]** を選択したら、ブラウザーを閉じます。
 
-1. **Microsoft Edge** を開き、 **`https://security.microsoft.com`** に移動し、Microsoft 365 Defender ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 Joni Shermans のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** を開き、 **https://security.microsoft.com** に移動し、Microsoft 365 Defender ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 Joni Shermans のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **Microsoft 365 Defender** ポータルの左側のナビゲーションで、 **[クラウド アプリ]** セクションまで下にスクロールし、 **[ファイル]** を選択します。
 
@@ -277,7 +277,7 @@ Microsoft 365 Defender でファイル監視が有効になりました。これ
 
 1. Client 2 VM (LON-CL1) に **lon-cl2\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **`https://admin.powerplatform.microsoft.com`** に移動し、Power Platform 管理センターに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **https://admin.powerplatform.microsoft.com** に移動し、Power Platform 管理センターに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **Power Platform 管理センター**の左側のナビゲーション ペインで、 **[ポリシー]** のドロップダウンを選択し、 **[データ ポリシー]** を選択します。
 

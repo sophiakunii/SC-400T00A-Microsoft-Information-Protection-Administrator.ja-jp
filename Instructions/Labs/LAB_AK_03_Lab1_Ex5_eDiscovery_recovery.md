@@ -14,7 +14,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. ポータルの左側のナビゲーション ウィンドウで、 **[電子情報開示]** を展開し、 **[コア]** を選択します。
 
@@ -52,7 +52,7 @@ lab:
 
 1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 右上隅にある **Joni Sherman** の**プロファイル画像**を選んで、 **[サインアウト]** を選びます。その後、ブラウザーを閉じます。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. 左側のナビゲーション ウィンドウで、**[ロールとスコープ]** を展開し、**[アクセス許可]** を選びます。
 
@@ -98,7 +98,7 @@ lab:
 
 1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 右上隅にある **MOD 管理者**の**プロファイル画像**を選んで、 **[サインアウト]** を選びます。その後、ブラウザーを閉じます。
 
-1. **Microsoft Edge** を開き、 **https://compliance.microsoft.com** に移動して、Microsoft Purview ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーによって提供される固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** を開き、 **`https://compliance.microsoft.com`** に移動して、Microsoft Purview ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーによって提供される固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、 **[電子情報開示]** を展開して、 **[Standard]** を選びます。
 
@@ -131,7 +131,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. Purview ポータルの左側のナビゲーション ペインで、 **[コンテンツ検索]** を選びます。
 

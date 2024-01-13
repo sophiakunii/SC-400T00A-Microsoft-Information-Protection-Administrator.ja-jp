@@ -14,7 +14,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。 JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ペインで、 **[設定]** を選択し、 **[デバイスのオンボード]** を選択します。
 
@@ -32,7 +32,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、**https://compliance.microsoft.com** に移動して、**Joni Sherman** として Microsoft 365 にログインする必要があります。
+1. **Microsoft Edge** で、**`https://compliance.microsoft.com`** に移動して、**Joni Sherman** として Microsoft 365 にログインする必要があります。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ペインで、 **[設定]** を選択し、 **[デバイスのオンボード]** を選択します。
 
@@ -77,7 +77,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に lon-cl1\admin アカウントでログオンします。
 
-1. タスク バーから Microsoft Edge を開き、Microsoft Purview ポータル (https://compliance.microsoft.com ) に移動し、[サインイン] ウィンドウが表示されたら、JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+1. タスク バーから Microsoft Edge を開き、Microsoft Purview ポータル (`https://compliance.microsoft.com` ) に移動し、[サインイン] ウィンドウが表示されたら、JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで **[データ損失防止]** を展開し、**[ポリシー]** を選択します。
 
@@ -137,7 +137,7 @@ DLP ポリシーがアクティブ化されました。 ポリシーがクレジ
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、**[データ損失防止]** を展開し、**[エンドポイント DLP 設定]** を選択します。
 
@@ -167,7 +167,7 @@ DLP ポリシーがアクティブ化されました。 ポリシーがクレジ
 
 1. タスク バーから Edge ブラウザーを開きます。
 
-1. Google Chrome のダウンロード場所 ( **https://chrome.google.com** ) に移動します。
+1. Google Chrome のダウンロード場所 ( **`https://chrome.google.com`** ) に移動します。
 
 1. **[Chrome をダウンロード]** を選択し、 **[ダウンロード]** で **[ファイルを開く]** を選択し、 **[ChromeSetup.exe]** を選択します。
 
@@ -175,13 +175,13 @@ DLP ポリシーがアクティブ化されました。 ポリシーがクレジ
 
 1. インストールが完了して、 **[Chrome にようこそ]** ページが開いたら、Chrome Web ストアの Microsoft Purview 拡張機能に移動します。
 
-    https://chrome.google.com/webstore/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco
+   ` https://chrome.google.com/webstore/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco`
 
 1. **[Microsoft Purview 拡張機能]** 拡張機能ページ上にいることを確認し、 **[Chrome に追加]** を選択します。
 
 1. **[Microsoft Purview 拡張機能を追加しますか?]** ウィンドウで、 **[拡張機能を追加]** を選択します。
 
-1. 通知ウィンドウを閉じ、**chrome://extensions** に移動します。
+1. 通知ウィンドウを閉じ、**`chrome://extensions`** に移動します。
 
 1. **[Microsoft Purview 拡張機能]** が表示され、アクティブ化されていることを確認します。
 

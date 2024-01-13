@@ -14,7 +14,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに **MOD 管理者** admin@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. 左側のナビゲーション ウィンドウで、**[ロールとスコープ]** を展開し、**[アクセス許可]** を選びます。
 
@@ -42,7 +42,7 @@ lab:
 
 1. Client 2 VM (LON-CL2) に **lon-cl2\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに **Megan Bowen** MeganB@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに **Megan Bowen** MeganB@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
 
 1. 左側のナビゲーション ペインで、 **[データ損失防止]** のドロップダウンを選び、 **[アクティビティ エクスプローラー]** を選びます。
 

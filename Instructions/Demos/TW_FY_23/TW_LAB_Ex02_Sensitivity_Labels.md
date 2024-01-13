@@ -84,7 +84,7 @@ lab:
 
 1. 引き続き Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインしている必要があります。
 
-1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動して Microsoft Purview ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーによって提供される固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して Microsoft Purview ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーによって提供される固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. Microsoft Purview ポータルの左ナビゲーション ペインで、**[情報の保護]** を展開してから、**[ラベル]** を選択します。
 
@@ -177,7 +177,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。  JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
-1. **Microsoft Edge** に、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
+1. **Microsoft Edge** に、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
 
 1. Microsoft Purview ポータルの左ナビゲーション ペインで、**[情報の保護]** を展開してから、**[ラベル]** を選択します。
 
@@ -288,7 +288,7 @@ OneDrive に保存された秘密度ラベル付きの HR Word ドキュメン�
 
 1. 引き続き Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインしている必要があります。
 
-1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. Microsoft Purview ポータルの左ナビゲーション ペインで、**[情報の保護]** を展開してから、**[ラベル]** を選択します。
 

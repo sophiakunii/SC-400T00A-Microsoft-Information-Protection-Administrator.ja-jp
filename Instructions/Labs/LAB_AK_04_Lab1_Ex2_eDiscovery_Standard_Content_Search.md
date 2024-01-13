@@ -14,7 +14,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して Microsoft Purview ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーによって提供される固有のテナント ID)。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動して Microsoft Purview ポータルに **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーによって提供される固有のテナント ID)。
 
 1. 左側のナビゲーション ペインから **[電子情報開示]** のドロップダウンを選択し、 **[Standard]** を選択します。
 
@@ -40,7 +40,7 @@ lab:
 
 タスク 2 では、先ほど作成した "Wrongful Termination Case" の一部として電子情報開示 (Standard) ホールドを作成します。 このホールドには、Contoso Ltd. の不当解雇訴訟に関連するすべての関連電子データが保持されます。
 
-1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** を開いて、 **https://compliance.microsoft.com** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** を開いて、 **`https://compliance.microsoft.com`** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. 左側のナビゲーション ペインで、 **[電子情報開示]** に移動し、 **[Standard]** を選択します。
 
@@ -52,7 +52,7 @@ lab:
 
 1. **[場所の選択]** ページで、 **[Exchange メールボックス]** を選択します。 **[含める]** で、 **[ユーザー、グループ、チームを選択]** を選択します。
 
-1. 右側の **[Exchange メールボックス]** ポップアップ ページの **[検索]** フィールドで、「_Lidia_」を検索し、 **[Lidia Holloway]** の左側にあるチェック ボックスをオンにします。 **完了**を選択します。
+1. 右側の **[Exchange メールボックス]** ポップアップ ページの **[検索]** フィールドで、「_Lidia_」を検索し、 **[Lidia Holloway]** の左側にあるチェック ボックスをオンにします。 **完了** を選択します。
 
 1. **[場所の選択]** ページに戻り、 **[次へ]** を選択します。
 
@@ -74,7 +74,7 @@ lab:
 
 タスク 3 では、先ほど作成した "Wrongful Termination Case" 内の電子情報開示 (Standard) 検索を作成します。 この検索は、Contoso Ltd. の不当解雇訴訟に関連するすべての関連電子データを特定して収集することを目的としています。
 
-1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** を開いて、 **https://compliance.microsoft.com** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** を開いて、 **`https://compliance.microsoft.com`** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. 左側のナビゲーション ペインで、 **[電子情報開示]** に移動し、 **[Standard]** を選択します。
 
@@ -86,7 +86,7 @@ lab:
 
 1. **[場所]** ページで、 **[Exchange メールボックス]** 、 **[SharePoint サイト]** 、 **[Exchange パブリック フォルダー]** で **[オン]** を選択し、 **[次へ]** を選択します。
 
-1. **[検索条件の定義]** ページの **[KQL エディター]** で [放射状] を選択します。
+1. **[検索条件の定義]** ページで、**[KQL エディター]** のラジオ ボタンを選択します。
 
 1. KQL エディター ボックスに、次のように入力します。
 
@@ -94,7 +94,7 @@ lab:
     To:Lidia OR From:Lidia OR Cc:Lidia OR Bcc:Lidia
     ```
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[検索の確認と作成]** ページで、 **[送信]** を選択します。
 
@@ -106,7 +106,7 @@ KQL エディターを使用して "Wrongful Termination Search" を正常に作
 
 このタスクでは、"Wrongful Termination Search" から取得した検索結果をエクスポートします。
 
-1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. 左側のナビゲーション ペインで、 **[電子情報開示]** に移動し、 **[Standard]** を選択します。
 
@@ -164,7 +164,7 @@ KQL エディターを使用して "Wrongful Termination Search" を正常に作
 
 このタスクでは、"Wrongful Termination Search" から取得した検索結果を確認して、ケースに関連する潜在的なセキュリティ上またはコンプライアンスの問題を特定します。
 
-1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. Joni のアカウントでログインしたままである必要があります。 ログインしていなければ、**Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. 左側のナビゲーション ペインで、 **[電子情報開示]** に移動し、 **[Standard]** を選択します。
 

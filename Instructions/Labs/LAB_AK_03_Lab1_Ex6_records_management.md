@@ -14,7 +14,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com/** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com/`** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、 **[レコード管理]** を選びます。
 
@@ -42,7 +42,7 @@ lab:
     - **特定の期間アイテムを保持**: 7 年間
     - **保持期間開始の条件**:アイテムが作成されたとき
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[Choose what happens during the retention period](保持期間中の処理の選択)** ページで **[Mark items as a record](アイテムをレコードとしてマークする)** を選んでから、 **[次へ]** を選びます。
 
@@ -58,7 +58,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com/** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com/`** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、 **[レコード管理]** を選びます。
 
@@ -91,7 +91,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. Microsoft Edge で、 **https://outlook.office.com** に移動します。 必要に応じて、**Megan Bowen** としてサインインします。
+1. Microsoft Edge で、 **`https://outlook.office.com`** に移動します。 必要に応じて、**Megan Bowen** としてサインインします。
 
 1. Outlook Web で、 **[受信トレイ]** を選びます
 

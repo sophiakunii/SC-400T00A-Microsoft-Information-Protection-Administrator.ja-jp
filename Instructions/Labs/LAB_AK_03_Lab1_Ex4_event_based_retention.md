@@ -14,7 +14,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインしておく必要があります (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、**[データ ライフサイクル管理]** を展開して **[Microsoft 365]** を選びます。
 
@@ -39,7 +39,7 @@ lab:
     - **[名前]** : プロジェクトの完了
     - **[説明]** : このイベントは、プロジェクトが終了するとトリガーされます。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[概要]** ページを確認し、**[送信]** を選びます
 
@@ -61,7 +61,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで、**[データ ライフサイクル管理]** を展開して **[Microsoft 365]** を選びます。
 
@@ -105,7 +105,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. 左上隅にある 9 つのドットを選び、 **[アプリ]** で **[SharePoint]** を選びます。
 
@@ -129,7 +129,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインしておく必要があります (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。  Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動して、**Joni Sherman** として Microsoft Purview ポータルにログインします。
 
 1. **Microsoft Purview** ポータルの左側のナビゲーション ウィンドウで **[レコード管理]** を選び、**[イベント]** タブを選びます。
 
@@ -140,13 +140,13 @@ lab:
     - **名前**: 新製品の発表は終了しました
     - **説明**: "プロジェクト資産" ラベルと資産 ID NewProductLaunch が設定された資産が保有期間に入ります。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[イベントの設定]** ページで、**[イベントの種類を使う]** を選び、**[イベントの種類を選択]** を選びます。
 
 1. **[イベントの種類を選択]** ページで、"**プロジェクトの完了**" をび、**[追加]** を選びます。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[イベントの設定]** ページで、**[SharePoint と OneDrive のアイテムの資産 ID]** を **NewProductLaunch** に設定します。
 
@@ -164,7 +164,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) には **lon-cl1\admin** アカウントでログインし、Microsoft 365 には **Joni Sherman** としてログインしておく必要があります。
 
-1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **https://compliance.microsoft.com** に移動します。
+1. **Microsoft Edge** で、Microsoft Purview ポータルのタブがまだ開かれているはずです。 その場合は、それを選択して次の手順に進みます。 閉じた場合は、新しいタブで **`https://compliance.microsoft.com`** に移動します。
 
 1. 左上隅にある 9 つのドットを選び、 **[アプリ]** で **[SharePoint]** を選びます。
 

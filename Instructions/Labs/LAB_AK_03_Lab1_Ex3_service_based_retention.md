@@ -14,7 +14,7 @@ Contoso Ltd. のシステム管理者である Joni Sherman のロールを実�
 
 1. Client 1 仮想マシン (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **https://admin.exchange.microsoft.com** に移動して、**Joni Sherman** として Exchange 管理センターにログインします。 JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+1. **Microsoft Edge** で、 **`https://admin.exchange.microsoft.com`** に移動して、**Joni Sherman** として Exchange 管理センターにログインします。 JoniS@WWLxZZZZZZ.onmicrosoft.com としてサインインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
 
 1. 表示されている場合は、すべてのヒント ウィンドウを閉じます。
 
@@ -45,7 +45,7 @@ Contoso Ltd. のシステム管理者である Joni Sherman のロールを実�
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. **Microsoft Edge** で、 **https://www.office.com** に移動して、**Joni Sherman** として Microsoft 365 にログインします。
+1. **Microsoft Edge** で、 **`https://www.office.com`** に移動して、**Joni Sherman** として Microsoft 365 にログインします。
 
 1. [Welcome] 画面が表示される場合は閉じます。 Microsoft Office 365 アプリ の通知が表示される場合も閉じてください。
 

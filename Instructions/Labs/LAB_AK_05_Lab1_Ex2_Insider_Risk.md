@@ -16,7 +16,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. Microsoft Edge で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに MOD 管理者 **admin@WWLxZZZZZZ.onmicrosoft.com** としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. Microsoft Edge で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに MOD 管理者 **admin@WWLxZZZZZZ.onmicrosoft.com** としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **[ロールとスコープ]** に移動し、ドロップダウンから **[アクセス許可]** を選択します。
 
@@ -44,7 +44,7 @@ lab:
 
 このタスクでは、Microsoft Purview ポータルでインサイダー リスク管理設定をカスタマイズします。 これにより、Joni Sherman は、組織内の潜在的なインサイダー リスクを効果的に管理し、機密情報のセキュリティを確保できます。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
 
 1. 左側のナビゲーション バーから **[インサイダー リスク管理]** を選択します。
 
@@ -86,7 +86,7 @@ lab:
     - **[名前]**: Finance team
     - **[説明]**: Team members that manage financial operations, budgeting, and reporting
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[メンバーの選択]** ページで、 **[+ メンバーの選択]** を選択します。
 
@@ -125,7 +125,7 @@ lab:
     - **[名前]**: Financial Data Protection
     - **[説明]**: Sensitive financial data access monitoring
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[ユーザーとグループの選択]** ページで、 **[すべてのユーザーとグループを含める]** を選択したままにして、 **[次へ]** を選択します。
 
@@ -150,9 +150,9 @@ lab:
 
     >**注**: ポリシーのトリガーを選択できない場合は、インジケーターを有効にするためのヒントが表示される場合があります。 このオプションが表示される場合は、 **[Turn on indicators] (インジケーターを有効にする)** を選択します。 **[Choose indicators to turn on] (インジケーターを選択して有効にする)** ポップアップで、 **[Office インジケーター]** の **[すべて選択]** の横にあるチェック ボックスをクリックし、 **[保存]** を選択します。
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
-1. **このポリシーのしきい値のトリガー** ページで、**既定のしきい値を使用する (推奨)** を選択し、**次へ** を選択します。
+1. **[イベントをトリガーするしきい値の選択]** ページで、**[組み込みしきい値の適用 (推奨)]** を選択し、**[次へ]** を選択します。
 
 1. **[インジケーター]** ページで、 **[物理アクセス インジケーター]** のドロップダウンを選択し、 **[Physical access after termination or failed access to sensitive asset] (強制終了後または機密資産へのアクセスへの失敗後の物理アクセス)** が選択されている場合は解除して、 **[次へ]** を選択します。
 

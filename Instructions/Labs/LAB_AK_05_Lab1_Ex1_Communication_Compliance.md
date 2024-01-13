@@ -5,9 +5,9 @@ lab:
 ---
 ## WWL テナント - 使用条件
 
-講師による指導付きトレーニング配信の一環としてテナントを提供されている場合は、講師による指導付きトレーニングでハンズオン ラボをサポートする目的でテナントを利用できることに注意してください。
+講師が指導するトレーニング配信の一環としてテナントを提供されている場合は、講師が指導するトレーニングでハンズオンラボをサポートする目的でテナントを利用できることに注意してください。
 
-テナントを共有したり、ハンズオン ラボ以外の目的で使用したりしないでください。 このコースで使われるテナントは試用版テナントであり、クラスが終了し、拡張機能の対象となっていない場合は、使用したりアクセスしたりすることはできません。
+テナントを共有したり、ハンズオンラボ以外の目的で使用したりしないでください。 このコースで使われるテナントは試用版テナントであり、クラスが終了し、拡張機能の対象となっていない場合は、使用したりアクセスしたりすることはできません。
 
 テナントを有料サブスクリプションに変換することはできません。 このコースの一環として取得したテナントは Microsoft Corporation の財産のままであり、当社はいつでもアクセス権とリポジトリを取得する権利を留保します。
 
@@ -21,7 +21,7 @@ lab:
 
 1. Client 1 VM (LON-CL1) に **lon-cl1\admin** アカウントでログインします。
 
-1. Microsoft Edge で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに MOD 管理者 **admin@WWLxZZZZZZ.onmicrosoft.com** としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. Microsoft Edge で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに MOD 管理者 **admin@WWLxZZZZZZ.onmicrosoft.com** としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 管理者のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. **[ロールとスコープ]** に移動し、ドロップダウンから **[アクセス許可]** を選択します。
 
@@ -49,7 +49,7 @@ lab:
 
 この演習では、Microsoft コミュニケーション コンプライアンスでカスタム ポリシーを構成して、機密性の高い財務情報に関するコミュニケーションを監視します。 ポリシーを構成するには、次の手順に従います。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
 
 1. 左側のナビゲーション ウィンドウから **[コミュニケーション コンプライアンス]** を選択します。
 
@@ -64,7 +64,7 @@ lab:
     - **名前**: 財務上の秘密の検出
     - **説明**: 財務上の秘密の共有の検出
 
-1. **[次へ]** を選択します。
+1. [**次へ**] を選択します。
 
 1. **[ユーザーとレビューの選択]** ページの **[ユーザーとグループの選択]** で **[すべてのユーザー]** を選択したままにしておきます。
 
@@ -98,7 +98,7 @@ lab:
 
 1. Joni のアカウントからログアウトし、すべてのブラウザー ウィンドウを閉じます。
 
-1. **Microsoft Edge** で、 **https://outlook.office.com** に移動し、Outlook on the web に LynneR@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
+1. **Microsoft Edge** で、 **`https://outlook.office.com`** に移動し、Outlook on the web に LynneR@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。
 
 1. Outlook on the web の左上部から **[新しいメール]** を選択します。
 
@@ -128,7 +128,7 @@ lab:
 
 このタスクでは、Microsoft Purview ポータルでコミュニケーション コンプライアンス ポリシーを管理します。**財務上の秘密の検出**ポリシーの保留中の項目に対してアクションを実行して、ポリシーが効果的に機能しており、潜在的なコンプライアンス問題が特定され、処理されていることを確認します。
 
-1. **Microsoft Edge** で、 **https://compliance.microsoft.com** に移動し、Microsoft Purview ポータルに JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
+1. **Microsoft Edge** で、 **`https://compliance.microsoft.com`** に移動し、Microsoft Purview ポータルに JoniS@WWLxZZZZZZ.onmicrosoft.com としてログインします (ZZZZZZ はラボ ホスティング プロバイダーから支給された固有のテナント ID)。 Joni のパスワードは、ラボ ホスティング プロバイダーから支給されます。
 
 1. 左側のナビゲーション バーから **[コミュニケーション コンプライアンス]** に移動します。
 
