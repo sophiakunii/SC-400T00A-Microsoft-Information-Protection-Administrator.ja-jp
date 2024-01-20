@@ -54,7 +54,7 @@ Contoso Ltd. のコンプライアンス管理者である Joni は、Microsoft 
     Start-Process  "https://login.microsoftonline.com/common/adminconsent?client_id=$appId"
     ````
 
-    >**注:** 必ず ZZZZZZ を更新してください。 ZZZZZZ はラボ ホスティング プロバイダーから支給された一意のテナント ID です。
+    >**注:**  必ず ZZZZZZ を ZZZZZZ.onmicrosoft.com に更新してください。 ZZZZZZ はラボ ホスティング プロバイダーから支給された一意のテナント ID です。 テナント ID には完全修飾ドメイン名が必要です。
 
 1. ダイアログが表示されたら、MOD 管理者アカウントでログインしてください
 
