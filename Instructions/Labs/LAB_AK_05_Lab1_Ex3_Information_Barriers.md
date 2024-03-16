@@ -47,7 +47,7 @@ Contoso Ltd. のコンプライアンス管理者である Joni は、Microsoft 
 1. 次の PowerShell コマンドレットを実行します。
 
     ````powershell
-    Connect-AzureAD -Tenant "WWLxZZZZZZ"
+    Connect-AzureAD -Tenant "WWLxZZZZZZ.onmicrosoft.com"
     $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
     $sp=Get-AzureADServicePrincipal -Filter "appid eq '$($appid)'"
     if ($sp -eq $null) { New-AzureADServicePrincipal -AppId $appId }
