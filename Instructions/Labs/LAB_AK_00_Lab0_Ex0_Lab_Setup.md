@@ -92,7 +92,7 @@ lab:
 
 1. 信頼されていないリポジトリからインストールするように要求されたら、「**Y**」と入力して、PSGallery からモジュールをインストールします。
 
-1. 次のコマンドレットを実行して、SharePoint Online の管理センターに接続します。続く画面でMOD Administratorユーザーでサインインしてください。
+1. 次のコマンドレットを実行して、SharePoint Online の管理センターに接続します。
 
     ```powershell
      Connect-SPOService -Url https://WWLxZZZZZZ-admin.sharepoint.com
@@ -100,7 +100,7 @@ lab:
 
     >**注:** 必ず ZZZZZZ を更新してください。 ZZZZZZ はラボ ホスティング プロバイダーから支給された一意のテナント ID です。
 
-1. ラボ ホスティング プロバイダーによって提供される MOD 管理者パスワードを使用してログインします。
+1. ラボ ホスティング プロバイダーによって提供される MOD 管理者ユーザー名(admin@WWLxZZZZZZ.onmicrosoft.com)とパスワードを使用してログインします。
 
 1. SharePoint と OneDrive で情報バリアを有効にするには、次のコマンドを実行してください。
 
