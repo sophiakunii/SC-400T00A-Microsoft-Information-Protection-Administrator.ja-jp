@@ -92,10 +92,10 @@ lab:
 
 1. 信頼されていないリポジトリからインストールするように要求されたら、「**Y**」と入力して、PSGallery からモジュールをインストールします。
 
-1. 次のコマンドレットを実行して、SharePoint Online の管理センターに接続します。
+1. 次のコマンドレットを実行して、SharePoint Online の管理センターに接続します。続く画面でMOD Administratorユーザーでサインインしてください。
 
     ```powershell
-     Connect-SPOService -Url https://WWLxZZZZZZ-admin.sharepoint.com -Credential admin@WWLxZZZZZZ.onmicrosoft.com
+     Connect-SPOService -Url https://WWLxZZZZZZ-admin.sharepoint.com
     ```
 
     >**注:** 必ず ZZZZZZ を更新してください。 ZZZZZZ はラボ ホスティング プロバイダーから支給された一意のテナント ID です。
