@@ -129,7 +129,7 @@ lab:
 1. 次のコマンドを PowerShell に入力し、前のステップで作成した DLP ポリシーに DLP ルールを追加します。
 
    ```powershell
-   New-DlpComplianceRule -Name "EmployeeID DLP rule" -Policy "EmployeeID DLP Policy" -BlockAccess $true -ContentContainsSensitiveInformation @{Name="Contoso Employee IDs"}
+   New-DlpComplianceRule -Name "EmployeeID DLP rule" -Policy "EmployeeID DLP Policy" -BlockAccess $true -ContentContainsSensitiveInformation @{Name="Contoso 従業員 ID"}
    ```
 
 1. 次のコマンドを使用して、"**EmployeeID の DLP ルール**" を確認します。
