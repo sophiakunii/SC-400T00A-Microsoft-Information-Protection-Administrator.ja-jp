@@ -166,28 +166,3 @@ DLP ポリシーがアクティブ化されました。 ポリシーがクレジ
 
 これで、エンドポイント DLP ポリシーのカスタム設定が構成されました。 作成するすべてのポリシーで、構成したフォルダー内のコンテンツが無視されるようになり、Google Chrome ブラウザーが、機密データの処理を許可されていないブラウザーとして追加されました。
 
-### タスク 5 - Microsoft Purview 拡張機能を構成する
-
-コンプライアンス管理者であるあなたは、機密データを操作するために、Chrome ブラウザーを複数のユーザーにロールアウトするための新しいビジネス要件を評価する必要があります。 このテストでは、Google Chrome ブラウザーをクライアント 01 にインストールし、Purview Compliance Extension for Google を Google Web ストアから手動で追加します。
-
-1. タスク バーから Edge ブラウザーを開きます。
-
-1. Google Chrome のダウンロード場所 **https://chrome.google.com** に移動します。
-
-1. **[Chrome をダウンロード] ** を選択し, **[ダウンロード] ** で **[ファイルを開く** を選択し、 **[ChromeSetup.exe] ** を選択します。
-
-1. **[ユーザー アカウント制御]** で **[はい] ** を選択して、Chrome ブラウザーをインストールします。
-
-1. インストールが完了して、 **[Chrome にようこそ]** ページが開いたら、Chrome Web ストアの Microsoft Purview 拡張機能 https://chrome.google.com/webstore/detail/microsoft-purview-extensi/echcggldkblhodogklpincgchnpgcdco に移動します。
-
-1. **[Microsoft Purview 拡張機能]** 拡張機能ページ上にいることを確認し、 **[Chrome に追加]** を選択します。
-
-1. **[Microsoft Purview 拡張機能を追加しますか?]** ウィンドウで、 **[拡張機能を追加]** を選択します。
-
-1. 通知ウィンドウを閉じ、chrome://extensions に移動します。
-
-1. **[Microsoft Purview 拡張機能]** が表示され、アクティブ化されていることを確認します。
-
-正常に Chrome ブラウザーがインストールされ、Microsoft Purview 拡張機能がクライアントに追加されました。 これで、Chrome ブラウザーを Edge ブラウザーと同様に使用して、機密データを操作できるようになり、Chrome ブラウザーを使用するときにも、以前に構成したエンドポイント DLP ポリシーが適用されるようになりました。
-
-# ラボ 2 - 演習 3 に進む 
